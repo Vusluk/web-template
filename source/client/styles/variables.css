@@ -1,0 +1,37 @@
+:root {
+  --trood-paper: #fff;
+  --trood-white: #fff;
+  --trood-black: #4a4a4a;
+  --trood-dark-blue: #2c3e50;
+  --trood-blue: #3a536c;
+  --trood-dark-gray: #9b9b9b;
+  --trood-gray: #d8d8d8;
+  --trood-light-gray: #e3e3e3;
+  --trood-extra-light-gray: #f8f8f8;
+  --trood-green: #43a047;
+  --trood-red: #eb6258;
+  --trood-orange: #f5a623;
+  --trood-light-orange: #f6cf8d;
+
+  --dark-grey-blue: #2c3e50;
+  --trood-rating-gb-green: #4dad33;
+  --trood-light-blue: #0377ff;
+  --trood-sky-blue: #168de2;
+  --trood-dark-red: #d0021b;
+  --trood-clay: #ca7051;
+
+  --trood-phone: 800px;
+  --trood-tablet: 1000px;
+  --trood-lg: 1400px;
+  --trood-sides: 100px;
+  --trood-sides-small: 50px;
+}
+
+@custom-media --trood-lg-and-tablet-and-phone only screen and (width <= 1400px);
+@custom-media --trood-tablet-and-phone only screen and (width <= 1000px);
+@custom-media --trood-phone only screen and (width <= 800px);
+@custom-media --trood-phone-horizontal only screen and (width <= 800px) and (orientation: landscape);
+@custom-media --trood-lg-and-tablet only screen and (width > 800px) and (width <= 1400px);
+@custom-media --trood-lg only screen and (width > 1000px) and (width <= 1400px);
+@custom-media --trood-tablet only screen and (width > 800px) and (width <= 1000px);
+@custom-media --trood-big-tablet only screen and (width > 800px) and (width <= 1200px);
