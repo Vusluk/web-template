@@ -18,13 +18,10 @@ class TIcon extends PureComponent {
   }
 
   static defaultProps = {
-    className: '',
+    size: 0,
     rotate: ROTATE_TYPES.up,
     onClick: () => {},
-  }
-
-  constructor(props) {
-    super(props)
+    className: '',
   }
 
   render() {
