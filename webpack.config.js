@@ -22,7 +22,7 @@ module.exports = {
       './source/client/',
     ],
   output: {
-    path: path.join(__dirname, 'build'),
+    path: path.join(__dirname, 'static'),
     filename: 'bundle.js',
     publicPath: config.dev.publicPath,
   },
